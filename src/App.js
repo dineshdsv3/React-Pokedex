@@ -1,16 +1,11 @@
 import React, {Component} from 'react';
 import './App.css';
-import Pokecard from './Pokecard';
+import Pokedex from './Pokedex';
 
 class App extends Component {
   render() {
     return (
-      <Pokecard 
-      id={4}
-      name="Charmander"
-      type="Fire"
-      exp={62}
-      />
+      <Pokedex />
     )
   }
 
